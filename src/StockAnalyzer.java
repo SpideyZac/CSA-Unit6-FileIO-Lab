@@ -235,8 +235,7 @@ public class StockAnalyzer {
      * 
      * METHOD PARAMETERS (all provided to you each day):
      * 
-     * @param balance     Current account balance (can be negative if you've been
-     *                    buying)
+     * @param balance     Current account balance (starts at $1000)
      * @param sharesOwned Number of shares you currently own (0 or more)
      * @param open        The opening price for today
      * @param high        The highest price reached today
@@ -250,8 +249,8 @@ public class StockAnalyzer {
      *                    RULES & CONSTRAINTS:
      *                    - You CANNOT sell if sharesOwned == 0 (will throw
      *                    IllegalStateException)
-     *                    - You CAN buy even with $0 balance (balance can go
-     *                    negative)
+     *                    - You CANNOT buy if balance < close (will throw
+     *                    IllegalStateException)
      *                    - You can call buy/sell multiple times per day if you want
      *                    - At the end of all 365 days, any remaining shares are
      *                    automatically
