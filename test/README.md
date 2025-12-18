@@ -1,0 +1,1 @@
+These files should all go into the test directory.

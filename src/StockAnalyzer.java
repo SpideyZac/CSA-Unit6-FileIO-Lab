@@ -67,6 +67,7 @@ public class StockAnalyzer {
     // You can't sell if you have 0 shares.
     // At the last close price, sell all remaining shares and return the final balance.
     // You can assume there are no transaction fees.
+    // At the end of the simulation, add back to your balance the value of any shares you still own at the last closing price.
     public static double simulateTrading(Scanner sc) {
         // TODO
         return 0.0;
