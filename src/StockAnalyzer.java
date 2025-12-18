@@ -77,7 +77,8 @@ public class StockAnalyzer {
     // You cannot change the method signature.
     // If you have 0 shares, you cannot sell.
     // You can call StockTester.sellShare() and StockTester.buyShare() as many times as you want as long as you follow the rules above.
-    // This method will be used to test your alogorithm on 5 different stock datasets chosen at random, and your score (your final balance) will be uploaded to a leaderboard.
+    // This method will be used to test your alogorithm on 5 different stock datasets (for a years worth of data) 
+    // chosen at random, and your score (your final balance) will be uploaded to a leaderboard.
     public static void myTradingAlgorithm(double balance, int sharesOwned, double open, double high, double low, double close) {
         // TODO
     }
