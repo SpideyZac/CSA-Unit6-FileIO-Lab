@@ -240,7 +240,7 @@ public class StockAnalyzer {
      *   - You CANNOT sell if sharesOwned == 0 (will throw IllegalStateException)
      *   - You CAN buy even with $0 balance (balance can go negative)
      *   - You can call buy/sell multiple times per day if you want
-     *   - At the end of all 250 days, any remaining shares are automatically
+     *   - At the end of all 365 days, any remaining shares are automatically
      *     sold at the final closing price and added to your balance
      *   - You CANNOT change this method's signature
      * 
