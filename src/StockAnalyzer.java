@@ -52,8 +52,6 @@ public class StockAnalyzer {
     
     IMPLEMENTATION TIP:
     Write helper methods to parse each day's data to avoid code duplication.
-    Consider creating a helper method like:
-      private static DayData readNextDay(Scanner sc)
     This will make your code cleaner and easier to debug.
     */
 
