@@ -65,6 +65,7 @@ public class StockAnalyzer {
     // Buy 1 share at CLOSE price if the day was bullish
     // Sell 1 share at CLOSE price if the day was bearish (closing price < opening price)
     // You can't sell if you have 0 shares.
+    // You can buy even if you have no money (your balance can go negative).
     // At the last close price, sell all remaining shares and return the final balance.
     // You can assume there are no transaction fees.
     // At the end of the simulation, add back to your balance the value of any shares you still own at the last closing price.
@@ -76,6 +77,7 @@ public class StockAnalyzer {
     // This is a placeholder for your trading algorithm.
     // You cannot change the method signature.
     // If you have 0 shares, you cannot sell.
+    // You can buy even if you have no money (your balance can go negative).
     // You can call StockTester.sellShare() and StockTester.buyShare() as many times as you want as long as you follow the rules above.
     // This method will be used to test your alogorithm on 5 different stock datasets (for a years worth of data) 
     // chosen at random, and your score (your final balance) will be uploaded to a leaderboard.
